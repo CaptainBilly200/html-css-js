@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto+Condensed&display=swap');
+
+html{
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    background: #444;
+}
+
+.calculator {
+    margin: 10em auto;
+    background: #333;
+    padding: 25px;
+    border-radius: 32px;
+}
+
+input[type="button"] {
+    background: #222;
+    width: 100%;
+    color: #dfdfdf;
+    font: bold 1.2rem 'Noto Serif', serif;
+    border-radius: 16px;
+}
+
+input[type="text"] {
+    height: 23px;
+    border-radius: 12px;
+    color: #dfdfdf;
+}
+
+#result-btn {
+    background-color: green;
+}
+
+#clear-btn {
+    background-color: red;
+}
